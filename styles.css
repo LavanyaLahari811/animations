@@ -1,0 +1,20 @@
+#canvas {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 600px;
+  width: 600px;
+}
+.controls {
+  position: absolute;
+  z-index: 10;
+  top: 100px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+option,
+select,
+label {
+  font-size: 20px;
+}
